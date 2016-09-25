@@ -1,0 +1,10 @@
+Global:main
+MOV word var1 const 50
+MUL word var1 const 50
+PRINT word var1
+JMP label LABEL_1
+LABEL_1
+SECTION.DATA
+DEC word var1
+DEC qword var2
+END
