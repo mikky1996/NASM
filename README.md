@@ -6,4 +6,5 @@ g++ NASM.cpp -o NASM
 
 To run the example txt file:
 ./NASM
+
 test.txt
